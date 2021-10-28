@@ -1,0 +1,75 @@
+.item1 { 
+	grid-area: header; 
+	color: white; 
+	font-size: 30px; 
+	padding: 0.7em ; 
+	background-color: #FF0000;
+	text-align: left;
+}
+
+.item2 { 
+	grid-area: mission; 
+	padding: 2em; 
+	color: #000000; 
+	background-color: gainsboro;
+	text-align: center;
+}
+
+.item3 { 
+	grid-area: maps; 
+	padding: 1em; 
+	background-color: #e6ccff;
+}
+
+.item4 { 
+	grid-area: youtube; 
+	padding: 1em; 
+	background-color: #6495ED;
+	text-align: center;
+}
+
+.item5 {
+	grid-area: facebook; 
+	background-color: #B9F7FF;
+	text-align: center;
+	padding: 2.8em;
+}
+
+.item6 {
+	grid-area: footer; 
+	padding: 1.5em;
+	font-weight: bold;
+	color: #000000; 
+	background-color: #FFF699;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'mission mission mission mission maps maps'
+    'youtube youtube youtube facebook facebook facebook'
+    'footer footer footer footer footer footer';
+  grid-gap: 1em;
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.grid-container > div {
+
+}
+
+h1{
+	font-size: 2em;
+}
+
+p{
+	font-size: 1.2em;
+	line-height: 1.5em;
+}
+
+
+.item2 > div
+{
+	padding: 5em; 
+}
