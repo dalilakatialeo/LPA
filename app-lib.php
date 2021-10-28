@@ -71,10 +71,10 @@ function openDB() {
      *   - Replace the connection string tags below with your MySQL parameters
      */
     $db = new mysqli(
-      "localhost",
-      "lpa_ecomms",
-      "5XmvHX4djjzQRMRS",
-      "lpa_ecomms"
+      "remotemysql.com",
+      "KpFKRM2tk9",
+      "7xHPfYozAE",
+      "KpFKRM2tk9"
     );
     if ($db->connect_errno) {
       echo "Failed to connect to MySQL: (" .
