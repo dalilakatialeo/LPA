@@ -1,0 +1,15 @@
+{
+    "name": "dalila/lpa",
+    "autoload": {
+        "psr-4": {
+            "Dalila\\Lpa\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dalila K Leo",
+            "email": "dalilakatialeo@gmail.com"
+        }
+    ],
+    "require": {}
+}
